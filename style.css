@@ -1,0 +1,254 @@
+.highlight{
+    color: crimson;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    color: #444;
+}
+
+p{
+    font-size: 20px;
+}
+
+.icon{
+    font-size: 50px;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.light{
+    font-style: italic;
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.italic{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.arrow{
+    text-align: left;
+}
+
+.button-1{
+    padding: 1rem;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.button-1:hover{
+    opacity: 0.5;
+}
+
+.button-2{
+    padding: 1rem;
+    background-color: blue;
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.button-2:hover{
+    opacity: 0.5;
+}
+
+
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #252529;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container{
+    text-align:center ;
+}
+
+.header nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+    position: fixed;
+    z-index: 2;
+    position: ;
+}
+
+.header nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+.header nav li{
+    display: inline;
+    float: left;
+    padding-left: 40px;
+}
+
+.header nav li a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    font-size: 18px;
+}
+
+.header nav li a:hover{
+    color: #444;
+}
+
+.header nav li a:hover :first-child{
+    color: #444;
+}
+
+#showcase{
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center/cover;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#showcase h1{
+    font-size: 120px;
+    margin-bottom: 0;
+    z-index: 2;
+    color: #fff;
+}
+
+#showcase p{
+    color: white;
+    font-size: 20px;
+}
+
+#showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+#music{
+    padding-bottom: 30px;
+}
+
+#music p{
+    color: #fff;
+}
+
+#video{
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+#video p{
+    color:black;
+}
+
+#entertainment{
+    background: url(images/entertainment.jpg) no-repeat center/cover;
+    padding: 10rem 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#entertainment .container{
+    padding-top: 150px;
+}
+
+#entertainment p{
+    color: #fff;
+}
+
+#entertainment::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.lean{
+    position: relative;
+    z-index: 5;
+}
+
+#gift{
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
+
+#gift .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+#gift h3{
+    text-align: left;
+}
+
+#gift p{
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.info .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    text-align: left;
+}
+
+.info ul{
+    list-style: none;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.info a:hover{
+    color: blue;
+}
+
+.info ul li:first-child{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+    border-bottom: grey solid 1px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+}
